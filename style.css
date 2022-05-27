@@ -471,8 +471,8 @@ section {
 
 .contact .contact-box .personal-info .phone h3,
 .contact .contact-box .personal-info .address h3 {
-  background: linear-gradient(to right, #00c3ff, #ffff1c);
-  box-shadow: 5px 10px 10px rgb(144, 184, 52);
+  background: linear-gradient(to bottom, #11998e, #38ef7d);
+  box-shadow: 5px 10px 10px rgb(52, 184, 59);
   border-radius: 5px;
   padding: 10px;
 }
@@ -510,7 +510,6 @@ section {
 .contact .contact-box .social-media div {
   margin-bottom: 30px;
   display: flex;
-  justify-content: center;
   align-items: center;
   color: #ffffcd;
   background: linear-gradient(to right, #fc00ff, #00dbde);
@@ -525,6 +524,7 @@ section {
 
 .contact .contact-box .social-media div img {
   padding-right: 10px;
+  padding-left: 10px;
 }
 
 .contact .contact-box .social-media div a {
@@ -545,6 +545,7 @@ section {
   .sidebar {
     width: 100%;
     padding: 40px;
+    max-height: 100%;
   }
 
   .banner .content-box h3:nth-of-type(2) {
