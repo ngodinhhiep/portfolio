@@ -310,6 +310,7 @@ section {
 .tools .content .tool-box img {
   max-width: 100%;
   transition: 0.5s;
+  transition-delay: 0s;
 }
 
 .tools .content .tool-box img:hover {
